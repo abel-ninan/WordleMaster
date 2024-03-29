@@ -5,7 +5,12 @@
     <title>Wordle Solver</title>
 </head>
 <body>
-    <form action="/guess" method="post">
+    {% if best_guess %}
+        <h2>Next best guess: {{ best_guess }}</h2>
+    {% else %}
+        <h2>No guesses left or start a new game.</h2>
+    {% endif %}
+    <form action="/" method="post">
         <label for="guess">Enter your guess:</label>
         <input type="text" id="guess" name="guess" required>
         <label for="feedback">Enter feedback:</label>
