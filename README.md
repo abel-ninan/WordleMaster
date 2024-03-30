@@ -21,7 +21,7 @@ flask run
 
 ## UI Screenshot
 
-![Wordle Solver UI](ui_screenshot.png)
+!(ui_screenshot.png)
 
 The UI is clean and intuitive, featuring an aesthetic layout that provides easy navigation and a pleasant user experience. Feedback is clearly displayed, guiding users toward the next best guess efficiently.
 
